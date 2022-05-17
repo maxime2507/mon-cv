@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* font-family: 'Merriweather', serif; */
+body, html {
+    padding: 0 ;
+    margin: 0 ;
+
+}
+
+#buttonColor {color: #000000;  
+
+}
+
+body {
+    font-family: 'Merriweather', serif; 
+
+}
+a , a:hover{
+    text-decoration: none;
+}
+
+.container-fluid {
+ padding: 0 ;   
+}
+.btn-custom {
+    background-color: #07E9EB;
+    color: #ffffff;
+     }
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: #07E9EB;
+    margin: 0 50% 1% 50%  ;
+}
+
+/* header */
+.header {
+    background-color: #07E9EB;
+    height: 70px;
+    line-height: 70px;
+}
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float : left ;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px
+}
+
+.menu a:hover {
+    color: black;
+}
+/* bannière */
+.banner {
+    max-width: 100%;
+    width: 100% ;
+}
+.ban {
+    max-width: 100%;
+    width:100% ;
+    position: relative;
+   }
+
+.ban img {
+        max-width: 100%;
+        width:100% ;
+         }
+.inner-banner {
+    position: absolute;
+    top : 40% ;
+    width: 100%;
+    text-align: center ; 
+}
+
+.inner-banner h1 {
+    color:#EBEBEA ;
+    text-shadow : 1px 1px 20px #000000 ;
+}
+.inner-banner .btn-custom {
+    background-color: #07E9EB;
+    color: #ffffff;
+}
+.inner-banner .btn-custom:hover{
+    background-color: black;
+}
+
+/* atout */ 
+
+#about{
+    text-align: center;
+    padding-top: 10%;
+   
+}
+
+
+.about article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.about article h2 {
+    text-align: center;
+}
+/* cv */ 
+
+
+.cv{
+   
+    background-color:#eeeeee;
+    height: 800px;
+}
+
+
+    
+
+    
+.progress{
+    height: 40px;
+    margin-top: 55px;
+    text-align: center;
+    background-color: #07E9EB;
+}
+
+
+#cv {
+    text-align: center;
+}
+
+
+.compétence{
+    color: #000000;
+    margin-top: 50px;
+}
+
+.cv .item-cv {
+    height: 280px;
+    background-color: #bebebe ;
+}
+
+/* contact */ 
+.footer{
+    background-color:#2c3e50;
+    height: 600px;
+
+}
+.footer p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5% ;
+}
+
+
+#contact { 
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+ }
+
+ .formulairecontact { 
+     width: 500px;
+     display: block;
+     margin:0 auto ;
+ }
+
+ input{
+     margin-bottom: 20px;
+ }
+
+ input[type=text] {
+     height: 50px;
+     width: 500px;
+     border: none ;
+ }
+ input[type=email] {
+    height: 50px;
+    width: 500px;
+    border: none ;
+ }
+
+
+    input[type=tel] {
+    height: 50px;
+    width: 500px;
+    border: none ;
+ }
+
+    input[type=sujet] {
+    height: 50px;
+    width: 500px;
+    border: none ;
+      }
+
+
+      textarea { 
+        width: 500px;
+        height: 200px;
+        resize: vertical;
+      }
