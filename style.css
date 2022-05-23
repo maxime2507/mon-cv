@@ -36,7 +36,7 @@ a , a:hover{
 
 /* header */
 .header {
-    background-color: #35c3c5;
+    background-color: #07E9EB;
     height: 70px;
     line-height: 70px;
 }
@@ -152,6 +152,10 @@ a , a:hover{
 .footer{
     background-color:#2c3e50;
     height: 600px;
+    
+
+    
+    
 
 }
 .footer p {
@@ -170,40 +174,11 @@ a , a:hover{
  .formulairecontact { 
      width: 500px;
      display: block;
-     margin:0 auto ;
+     margin: 300px ;
+     margin-top: auto;
+     text-align: center;
+     
  }
 
- input{
-     margin-bottom: 20px;
- }
-
- input[type=text] {
-     height: 50px;
-     width: 500px;
-     border: none ;
- }
- input[type=email] {
-    height: 50px;
-    width: 500px;
-    border: none ;
- }
-
-
-    input[type=tel] {
-    height: 50px;
-    width: 500px;
-    border: none ;
- }
-
-    input[type=sujet] {
-    height: 50px;
-    width: 500px;
-    border: none ;
-      }
-
-
-      textarea { 
-        width: 500px;
-        height: 200px;
-        resize: vertical;
-      }
+    
+    
