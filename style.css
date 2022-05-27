@@ -157,8 +157,8 @@ a , a:hover{
     
     
 
-}
-.footer p {
+ }
+.footer p { 
     color: #ffffff;
     text-align: center;
     padding-top: 5% ;
@@ -177,7 +177,11 @@ a , a:hover{
      margin: 300px ;
      margin-top: auto;
      text-align: center;
-     
+     margin-left: 35%;
+ }
+ .nav-item{
+     margin-top: 15%;
+    margin-left: 40%; 
  }
 
     
